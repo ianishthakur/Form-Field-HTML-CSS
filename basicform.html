@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Employee Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>Employee Form</header>
+    <nav>Fill up your details</nav><br/>
+    <form>
+        <label>First Name</label>
+        <input type="text" id="fname" name="fname" required> &nbsp;
+        <label>Middle Name</label>
+        <input type="text" id="mname" name="mname"> &nbsp;
+        <label>Last Name</label>
+        <input type="text" id="lname" name="lname" required><br/><br/>
+
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender" value="Male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Working</label><br/><br/>
+
+
+        <label>Email</label>
+        <input type="text" id="mail" name="mail" placeholder="someone@example.com" required>&nbsp;
+        <label>Phone</label>
+        <input type="text" id="phone" name="phone" placeholder="123-456-789" required><br/><br/>
+
+        <label>Date of Birth</label>
+        <input type="text" id="dob" name="dob"><br/><br/>
+
+        <label for="count">Country</label>
+        <select name="count" id="count">
+          <option value="volvo">Afganistha</option>
+          <option value="saab">Africa</option>
+          <option value="mercedes">Maldives</option>
+          <option value="audi">Nepal</option>
+        </select> &nbsp;
+        <label for="citizen">Citizen</label>
+        <select name="citizen" id="citizen">
+          <option value="volvo">Afganistha</option>
+          <option value="saab">Africa</option>
+          <option value="mercedes">Maldives</option>
+          <option value="audi">Nepali</option>
+        </select><br/><br/>
+
+        <label for="desig">Designation</label>
+        <select name="desig" id="desig">
+          <option value="volvo">IT Officer</option>
+          <option value="saab">React Developer</option>
+          <option value="mercedes">Business Analyst</option>
+          <option value="audi">Quality Assurance</option>
+          <option value="audi">Android Developer</option>
+          <option value="audi">Fultter Developer</option>
+          <option value="audi">Backend Developer</option>
+        </select><br/><br/>
+
+        <label for="working">Are you currently working?</label>
+        <input type="radio" id="working" name="Working" value="Working">
+        <label for="working">Working</label>
+        <input type="radio" id="notworking" name="Working" value="Not working">
+        <label for="notworking">Not working</label><br/><br/>
+
+        <label for="sdate">Start date</label>
+        <input type="date" id="sdate" name="start date" value="start date"> &nbsp;
+        <label for="edate">End date</label>
+        <input type="date" id="edate" name="end date" value="end date"> <br/><br/>
+
+        <input type="checkbox" id="skill1" name="skill1" value="HTML">
+        <label for="skill1"> HTML, CSS & JS</label><br/>
+        <input type="checkbox" id="skill2" name="skill2" value="Flutter">
+        <label for="skill2"> Flutter</label><br/>
+        <input type="checkbox" id="skill3" name="skill3" value="React">
+        <label for="skill3"> React</label><br/> 
+        <input type="checkbox" id="skill4" name="skill4" value=".Net">
+        <label for="skill4"> ASP .Net</label><br/> 
+        <input type="checkbox" id="skill5" name="skill5" value="Node">
+        <label for="skill5"> Node</label><br/> 
+        <input type="checkbox" id="skill6" name="skill6" value="Data analytics">
+        <label for="skill6"> Data analysis</label><br/><br/>
+
+        <label for="msg">Message</label>
+        <textarea id="msg" name="msg" rows="4" cols="40">Have some queries?</textarea>
+        <br/><br/>
+        <input type="submit" value="Submit">
+
+
+
+    </form>
+    
+    
+</body>
+</html>
