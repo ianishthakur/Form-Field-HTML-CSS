@@ -1,0 +1,29 @@
+.nav-link{
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+
+}
+
+.nav-link{
+    margin-left: 10px;
+
+}
+
+.gender{
+    font-size: 16px;
+
+}
+
+.form-check-label{
+    padding-right: 10px;
+
+}
+
+.form-row .date{
+    padding-left: 10rem;
+}
+
+.count{
+    padding-left: 10rem;
+}
